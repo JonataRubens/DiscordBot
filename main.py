@@ -135,4 +135,4 @@ async def on_message(message):
         except Exception as error:
             await client.send_message(message.channel, "Error: [{error}]".format(error=error))
 
-client.run("MTA0NzI3MTE5MTQ2MDcyODg0NA.GWBT_w.tuqLIyxpyPpbLlkFJfRM32O82U-992hNzijhvg")
+client.run("TOKEN")
